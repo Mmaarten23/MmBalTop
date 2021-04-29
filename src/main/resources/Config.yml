@@ -1,0 +1,17 @@
+# Recalculation interval in MINUTES
+# Must be a whole number
+refresh-interval: 5
+
+# The amount of players to put on one page
+player-amount-per-page: 8
+
+# The header to use above each page of the baltop list
+header: "&b======&c&lBALTOP&b======\n&7Last recalculated: &b%lastRecalculated%"
+
+# The pattern to use in the baltop list
+pattern: '&3%index% &b%name% &7: &b%balance%&3$'
+
+manual-reload: '&bManual recalculation started!'
+
+no-permission: '&4Insufficient permission!'
+
